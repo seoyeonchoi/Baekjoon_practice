@@ -2,9 +2,9 @@ from collections import defaultdict, deque
 
 n = int(input())
 m = int(input())
-photos = defaultdict(lambda: 0)
+photos = dict()
 
-recommend_list = deque(map(int, input().split()))
+recommend_list = deque((map(int, input().split())))
 
 while recommend_list:
     ready = recommend_list.popleft()
