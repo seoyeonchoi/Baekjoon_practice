@@ -1,4 +1,4 @@
-from collections import defaultdict, deque
+from collections import deque
 
 n = int(input())
 m = int(input())
